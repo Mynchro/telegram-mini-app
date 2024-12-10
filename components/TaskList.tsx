@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { collection, query, where, onSnapshot } from "firebase/firestore";
 import { db } from "@/app/lib/firebase";
-import TaskItem from "@/app/components/TaskItem";
+import TaskItem from "./TaskItem";
 import { Task } from "@/app/types/task";
 
 interface TaskListProps {
